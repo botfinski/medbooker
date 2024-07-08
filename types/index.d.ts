@@ -35,3 +35,15 @@ declare interface RegisterUserParams extends CreateUserParams {
 	identificationDocument: FormData | undefined;
 	privacyConsent: boolean;
 }
+
+declare type Status = "pending" | "scheduled" | "cancelled";
+
+declare type CreateAppointmentParams = {
+	userId: string;
+	patient: string;
+	primaryPhysician: string;
+	reason: string;
+	schedule: Date;
+	status: Status;
+	note: string | undefined;
+};
