@@ -7,19 +7,9 @@ import { z } from "zod";
 import { zodResolver } from "@hookform/resolvers/zod";
 import { Form } from "@/components/ui/form";
 import { UserFormValidation } from "@/lib/validation";
-import CustomFormField from "../CustomFormField";
+import CustomFormField, { FormFieldType } from "../CustomFormField";
 import SubmitButton from "../SubmitButton";
 import { createUser } from "@/lib/actions/patient.actions";
-
-export enum FormFieldType {
-	INPUT = "input",
-	TEXTAREA = "textarea",
-	PHONE_INPUT = "phoneInput",
-	CHECKBOX = "checkbox",
-	DATE_PICKER = "datePicker",
-	SELECT = "select",
-	SKELETON = "skeleton",
-}
 
 const PatientForm = () => {
 	const router = useRouter();
