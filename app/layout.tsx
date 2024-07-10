@@ -13,6 +13,18 @@ const fontSans = Plus_Jakarta_Sans({
 export const metadata: Metadata = {
 	title: "MedBooker",
 	description: "Healthcare management system",
+	icons: {
+		icon: [
+			{
+				url: "/assets/favicon/favicon.png",
+				media: "(prefers-color-scheme: light)",
+			},
+			{
+				url: "/assets/favicon/favicon-dark.png",
+				media: "(prefers-color-scheme: dark)",
+			},
+		],
+	},
 };
 
 export default function RootLayout({

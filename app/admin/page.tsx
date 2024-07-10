@@ -16,7 +16,7 @@ const Admin = async () => {
 						src="/assets/icons/logo-full.svg"
 						height={32}
 						width={162}
-						alt="logo"
+						alt="Logo MedBooker"
 						className="h-8 w-fit"
 					/>
 				</Link>

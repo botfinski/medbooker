@@ -31,7 +31,7 @@ const Success = async ({
 						src="/assets/icons/logo-full.svg"
 						height={1000}
 						width={1000}
-						alt="logo"
+						alt="Logo MedBooker"
 						className="h-10 w-fit"
 					/>
 				</Link>
@@ -41,7 +41,7 @@ const Success = async ({
 						src="/assets/gifs/success.gif"
 						height={300}
 						width={280}
-						alt="success"
+						alt=""
 						unoptimized
 					/>
 					<h2 className="header mb-6 max-w-[600px] text-center">
@@ -56,7 +56,7 @@ const Success = async ({
 					<div className="flex items-center gap-3">
 						<Image
 							src={doctor?.image!}
-							alt="doctor"
+							alt=""
 							width={100}
 							height={100}
 							className="size-6"
@@ -64,12 +64,7 @@ const Success = async ({
 						<p className="whitespace-nowrap">Dr. {doctor?.name}</p>
 					</div>
 					<div className="flex gap-2">
-						<Image
-							src="/assets/icons/calendar.svg"
-							height={24}
-							width={24}
-							alt="calendar"
-						/>
+						<Image src="/assets/icons/calendar.svg" height={24} width={24} alt="" />
 						<p> {formatDateTime(appointment.schedule).dateTime}</p>
 					</div>
 				</section>

@@ -17,7 +17,7 @@ async function Register({ params: { userId } }: SearchParamProps) {
 						src="/assets/icons/logo-full.svg"
 						height={1000}
 						width={1000}
-						alt="patient"
+						alt="Logo MedBooker"
 						className="mb-12 h-10 w-fit"
 					/>
 

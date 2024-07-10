@@ -111,7 +111,7 @@ const RegisterForm = ({ user }: { user: User }) => {
 						name="name"
 						placeholder="John Doe"
 						iconSrc="/assets/icons/user.svg"
-						iconAlt="user"
+						iconAlt=""
 					/>
 
 					<div className="flex flex-col gap-6 xl:flex-row">
@@ -122,7 +122,7 @@ const RegisterForm = ({ user }: { user: User }) => {
 							label="Email"
 							placeholder="johndoe@gmail.com"
 							iconSrc="/assets/icons/email.svg"
-							iconAlt="email icon"
+							iconAlt=""
 						/>
 
 						<CustomFormField

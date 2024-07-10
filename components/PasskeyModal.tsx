@@ -71,7 +71,7 @@ const PasskeyModal = () => {
 						Admin Access Verification
 						<Image
 							src="/assets/icons/close.svg"
-							alt="close"
+							alt="Close Modal"
 							width={20}
 							height={20}
 							onClick={() => closeModal()}
