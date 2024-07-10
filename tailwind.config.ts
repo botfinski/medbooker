@@ -58,8 +58,14 @@ const config = {
 			animation: {
 				"caret-blink": "caret-blink 1.25s ease-out infinite",
 			},
+			backgroundImage: {
+				appointments: "url('/assets/images/appointments-bg.png')",
+				pending: "url('/assets/images/pending-bg.png')",
+				cancelled: "url('/assets/images/cancelled-bg.png')",
+			},
 		},
 	},
+	plugins: [require("tailwindcss-animate")],
 } satisfies Config;
 
 export default config;
