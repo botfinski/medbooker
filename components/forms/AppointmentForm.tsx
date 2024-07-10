@@ -28,8 +28,8 @@ const AppointmentForm = ({
 	userId: string;
 	patientId: string;
 	type: "create" | "schedule" | "cancel";
-	appointment: Appointment | undefined;
-	setOpen: (open: boolean) => void;
+	appointment?: Appointment | undefined;
+	setOpen?: (open: boolean) => void;
 }) => {
 	const router = useRouter();
 	const [isLoading, setIsLoading] = useState(false);
